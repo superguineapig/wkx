@@ -45,6 +45,7 @@
     "spatial"
   ],
   "dependencies": {
-    "@types/node": "*"
+    "@types/node": "*",
+    "buffer": "^5.1.0"
   }
 }

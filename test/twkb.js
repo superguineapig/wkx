@@ -1,3 +1,4 @@
+var Buffer = require('buffer/').Buffer; // non-nodejs
 var Geometry = require('../lib/geometry');
 var Point = require('../lib/point');
 
@@ -5,7 +6,7 @@ var assert = require('assert');
 
 describe('wkx', function () {
     describe('parseTwkb', function () {
-        it('includes size', function () {            
+        it('includes size', function () {
             assert.deepEqual(Geometry.parseTwkb(
                              new Buffer('0102020204', 'hex')),
                              new Point(1, 2));

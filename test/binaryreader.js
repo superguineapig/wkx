@@ -1,3 +1,4 @@
+var Buffer = require('buffer/').Buffer; // non-nodejs
 var BinaryReader = require('../lib/binaryreader');
 
 var assert = require('assert');

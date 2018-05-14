@@ -1,5 +1,6 @@
 /* jshint evil: true, unused: false */
 
+var Buffer = require('buffer/').Buffer; // non-nodejs
 var eql = require('deep-eql');
 
 var Geometry = require('../lib/geometry');
